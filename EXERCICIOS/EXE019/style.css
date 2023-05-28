@@ -1,0 +1,37 @@
+@charset "Utf-8";
+
+body{
+    background-color: #BF6F41;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+main{
+    background-color: aliceblue;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #90A66F;
+    border-radius: 20px;
+}
+#principal{
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+h1{
+    color: #D9CF4A;
+}
+
+.basico {
+    color: #90A66F;
+    font-style: italic;
+}
+.intermediario{
+    color: #8C7503;
+    font-style: italic;
+}
+.avancado{
+    color: #818d6c;
+    font-style: italic;
+}

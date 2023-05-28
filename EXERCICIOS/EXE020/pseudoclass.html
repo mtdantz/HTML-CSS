@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classe</title>
+</head>
+<style>
+    div{
+        display: inline-block; /* Deixa as divs todas em linha */
+        background-color: darkgray;
+        text-align: center;
+        height: 50px;
+        width: 150px;
+        border: 2px solid gray;
+        border-radius: 20px;
+    }
+    div:hover /* Pseudo classe tem q ser atrelados ou a Ids ou a Classes- se tratando
+                do estado do elemento - Hover -> é quando passamos o mouse por cima do elemento*/
+    {
+        background-color: rgb(124, 133, 133);
+    }
+</style>
+<body>
+    <!-- Utilização de Divs e as pseudo classes
+        # -> Id
+        . -> Class
+        ; -> Pseudo Class
+    -->
+
+    <div>Div 1</div>
+    <div>Div 2</div>
+    <div>Div 3</div>
+</body>
+</html>

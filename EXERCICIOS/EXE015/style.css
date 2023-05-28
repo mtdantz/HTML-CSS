@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* No Css, tudo que tem @ é uma regra...existem várias regras q irei aprender,  
+mas, por hora, toda a regra aparece no inicio do arquivo, antes mesmo de começar a digitar
+qualquer código, sempre iniciado em @ e terminando em ;
+*/
+body{
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+h1 {
+    color: brown; text-align: center; background-color: blanchedalmond;
+    
+}
+h2 {
+    color:gray;
+}
+p {
+    text-align: justify;
+}

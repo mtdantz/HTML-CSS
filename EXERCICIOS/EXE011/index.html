@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 011</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture> 
+    <!-- A tag picture eh usada para carregar várias imagens e sources dentro de um bloco
+    LEMBRANDO, a base eh sempre a img padrão que queremos carregar, as de demais tamanhos são usadas nas tags source (começar do tamanho maior e as sources com tamanhos menores)-->
+        <source media="(max-width: 750px )" srcset="imagen/imgpequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagen/imgmedia.png" type="image/png">
+        <img src="imagen/imggrande.png" alt="imagem flexivel">
+
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+
+    <!--audio src="midia/Toccata in D minor (by Bach) - Bach.mp3" autoplay controls></audio>-->
+     <!-- Formatos compativeis de audio: MP3, WAV, OGG -->
+
+     <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Toccata in D minor (by Bach) - Bach.mp3" type="audio/mpeg">
+
+
+     </audio>
+
+
+    
+</body>
+</html>

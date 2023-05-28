@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+    body{
+        background-color: darkgrey;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        background-color: aliceblue;
+        padding: 10px;
+        width: auto;
+        margin: 10px;
+    }
+    main{
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px 0px;
+        box-shadow: 3px 3px 3px 0px #0f0f0f91;
+    }
+    footer{
+        background-color: black;
+        color: aliceblue;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+    }
+    article{
+        background-color: lightblue;
+        padding: 5px;
+    }
+    article > aside{
+        background-color: aquamarine;       
+    }
+    nav{
+        background-color:darkcyan ;
+        padding: 3px;
+        box-shadow: 2px 2px 2px #000000a8;
+        
+    }
+    nav > a{
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+        margin-right: 30px;
+        padding: 3px;
+    }
+    nav > a:hover{
+        color: rgb(190, 151, 226);
+    }
+    footer > p{
+        margin: 0px;
+    }
+    div#bola{ /* Como criar uma bola no CSS*/
+        height: 100px;
+        width: 100px;
+        background-color: aliceblue;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    
+</style>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2 </a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assunto">
+            <p>Assuntos Aleatórios</p>
+        </section>
+
+        <section>
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut ducimus accusamus repudiandae, itaque nesciunt voluptatibus cupiditate expedita blanditiis, commodi iusto facilis officiis molestiae esse iste nisi sed sequi quia?</p>
+                <aside>
+                    <p>Baby dont hurt me </p>
+                </aside>
+            </article>
+                
+            <article><h2>Lorena Ipsen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis eos porro eligendi aliquid voluptatibus eveniet quibusdam? Architecto quaerat, reprehenderit incidunt tempore quasi, deserunt quam nobis esse soluta veniam dolorem enim?</p>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Designed by Mateus</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+    
+</body>
+</html>
