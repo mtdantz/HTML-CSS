@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Cadastro de Desenvolvedores</h1>
+        <p id="subtitle">Preencha com suas informações</p>
+        <br>
+    </header>
+    <form>
+            <nav>
+                <fieldset class="group1">
+                    <div class="campo">
+                        <label for="Nome"><strong>Nome</strong></label>
+                        <input type="text" name="Nome" id="nome" required>
+                        
+                    </div>
+                    <div class="campo">
+                        <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                        <input type="text" name="Sobrenome" id="sobrenome" required>
+                        
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="Email" id="email" required>
+                    <br><hr>
+                </div>
+                <div class="campo">
+                    <label for="devs"><strong>De qual lado da aplicação você desenvolve?</strong></label required><br>
+                    <div class="radio">
+                        <input type="radio" name="dev web" value="FrontEnd">
+                        <label for="dev web">FrontEnd</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="dev web" value="BackEnd">
+                        <label for="dev web">BackEnd</label>
+                    </div>
+                    <div  class="radio">
+                        <input type="radio" name="dev web" value="Fullstack">
+                        <label for="dev web">Fullstack</label>
+                    </div>
+                </div>
+                <div class="campo">
+                    <label for="senioridade"><strong>Senioridade</strong></label>
+                    <select name="select" id="Senioridade">
+                        <option selected disabled value="">-Selecione-</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Pleno">Pleno</option>
+                        <option value="Senior">Senior</option>
+                    </select>
+                </div>
+                <fieldset class="group">
+                    <div id="check">
+                        <label for=""><strong>Quais tecnologias você domina?</strong></label><br><br>
+                        <input type="checkbox" class="box" name="tecnologias" value="HTML">
+                            <label for="">HTML</label>
+                        <input type="checkbox" class="box" name="tecnologias" value="CSS">
+                            <label for="">CSS</label>
+                        <input type="checkbox" class="box" name="tecnologias" value="Javascript">
+                            <label for="">JavaScript</label>
+                        <input type="checkbox" class="box" name="tecnologias" value="React">
+                            <label for="">React</label>
+                        <input type="checkbox" class="box" name="tecnologias" value="Python">
+                            <label for="">Python</label>
+                        <input type="checkbox" class="box" name="tecnologias" value="C#">
+                            <label for="">C#</label>
+                        <input type="checkbox" class="box" name="tecnologias" value="Java">
+                            <label for="">Java</label>
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <br>
+                    <label class="textarea" for=""><strong>Conte um pouco sobre suas experiencias</strong></label>
+                    
+                    <textarea name="texto" id="experiencia" cols="50" rows="5"></textarea>
+                </div>
+                        <button type="submit" class="botao">Enviar</button>
+            </nav>
+    </form>
+       
+</body>
+</html> 
