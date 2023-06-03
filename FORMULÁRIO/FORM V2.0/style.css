@@ -164,6 +164,14 @@ fieldset.group.campo{
 .group1{
     columns: 2;
 }
+.date{
+    display: flex;
+    
+}
+input[type="date"]{
+    width: 170px;
+    height: 25px;
+}
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
     padding: 0.2em;
     border: 1px solid var(--cor2);
